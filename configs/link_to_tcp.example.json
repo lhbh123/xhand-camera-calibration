@@ -1,0 +1,11 @@
+{
+  "reference_link": "wrist_3_link",
+  "verified": false,
+  "T_link_tcp": [
+    [1, 0, 0, 0],
+    [0, 1, 0, 0],
+    [0, 0, 1, 0],
+    [0, 0, 0, 1]
+  ],
+  "note": "PLACEHOLDER ONLY. Replace with the measured/modelled transform from the configured TCP into the simulation link frame, then set verified=true. Identity is not assumed."
+}

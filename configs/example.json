@@ -1,0 +1,37 @@
+{
+  "board": {
+    "frame_id": "table_board_v1_do_not_move",
+    "squares_x": 7,
+    "squares_y": 10,
+    "square_length_m": 0.025,
+    "marker_length_m": 0.018,
+    "dictionary": "DICT_5X5_100",
+    "min_corners": 12
+  },
+  "cameras": {
+    "wrist": {
+      "serial": "REPLACE_WITH_D405_SERIAL",
+      "expected_model": "D405",
+      "width": 640,
+      "height": 480,
+      "fps": 30
+    },
+    "global": {
+      "serial": "REPLACE_WITH_D435_SERIAL",
+      "expected_model": "D435",
+      "width": 640,
+      "height": 480,
+      "fps": 30
+    }
+  },
+  "robot": {
+    "ip": "REPLACE_WITH_UR5E_IP",
+    "reference_frame": "configured_tcp",
+    "tcp_offset_flange_to_tcp_m_rotvec": [0, 0, 0, 0, 0, 0],
+    "tcp_configuration_verified": false,
+    "max_linear_speed_m_s": 0.002,
+    "max_angular_speed_rad_s": 0.01,
+    "max_joint_change_rad": 0.002,
+    "settle_seconds": 0.3
+  }
+}
